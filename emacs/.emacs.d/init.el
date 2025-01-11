@@ -17,6 +17,7 @@
 
 (load-theme 'wombat)
 
+(global-display-line-numbers-mode 1)
 
 ;; Make ESC quit prompts
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
