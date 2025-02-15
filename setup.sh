@@ -5,7 +5,7 @@ git submodule init
 git submodule update
 
 # what directories should be installable by all users including the root user
-base=(tmux emacs zsh)
+base=(tmux emacs bash)
 
 # folders that should, or only need to be installed for a local user
 useronly=(  )
