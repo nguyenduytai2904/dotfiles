@@ -14,7 +14,7 @@
 ;; Set up the visible bell
 (setq visible-bell t)
 
-(set-face-attribute 'default nil :font "Fira Code Retina" :height runemacs/default-font-size)
+(set-face-attribute 'default nil :font "MesloLGl Nerd Font" :height runemacs/default-font-size)
 
 
 ;; Make ESC quit prompts
@@ -114,7 +114,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("48042425e84cd92184837e01d0b4fe9f912d875c43021c3bcb7eeb51f1be5710" default)))
+   '("48042425e84cd92184837e01d0b4fe9f912d875c43021c3bcb7eeb51f1be5710" default))
+ '(package-selected-packages
+   '(helpful counsel ivy-rich which-key rainbow-delimiters doom-themes doom-modeline ivy command-log-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
