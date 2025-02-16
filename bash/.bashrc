@@ -4,6 +4,8 @@
 export PATH=$PATH:~/.local/bin
 source /usr/share/doc/pkgfile/command-not-found.bash
 complete -cf sudo
+complete -c man which
+shopt -s autocd
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
