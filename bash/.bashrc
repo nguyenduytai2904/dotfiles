@@ -2,6 +2,8 @@
 # ~/.bashrc
 #
 export PATH=$PATH:~/.local/bin
+source /usr/share/doc/pkgfile/command-not-found.bash
+complete -cf sudo
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
