@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Updating locate database..."
+sudo updatedb
+echo "Locate database updated at $(date)" | sudo tee /var/log/update-locate.log
+
