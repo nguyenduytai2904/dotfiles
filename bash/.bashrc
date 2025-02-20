@@ -352,4 +352,5 @@ else
 fi
 
 # ex: ts=4 sw=4 et filetype=sh
-eval "$(oh-my-posh init bash --config ~/.mytheme.opm.json)"
+eval "$(oh-my-posh init bash --config ~/mytheme.omp.json)"
+#eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/catppuccin.omp.json)"
